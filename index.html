@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+<meta charset="utf-8">
+<title>  Andres Gracia Ramirez</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript -->
+<script src="js/jquery-1.11.2.min.js"> </script>
+<script src="js/jquery.mobile-1.4.5.min.js"> </script>
+<!-- <script src="js/accion.js" type="text/javascript"></script> -->
+
+<script src="phonegap.js"></script> <!--necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+
+</head>
+<body onLoad="MM_preloadImages('imagenes/archivos/deporte2.jpg','imagenes/contaminacion1.jpg','file:///E|/DAM/2Parcial/Aplicaciones/app4/imagenes/contaminación6.jpg','file:///E|/DAM/2Parcial/Aplicaciones/app4/imagenes/contaminación8.jpg','file:///E|/DAM/2Parcial/Aplicaciones/app4/imagenes/contaminación7.jpg')">
+    <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true"    data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1 align="center"> Contaminacion Ambiental </h1>
+</div>
+
+<div data-role="main" class="ui-content" >
+<div data-role="collapsible" data-content-theme="false">
+<h1> Hoy en día  </h1>
+<div>
+  <img src="imagenes/contaminacion1.jpg" width="60%" height="60%" id="Image24">
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+   <li class="ui-first-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> Definicion </h2>
+      <p> <font color="#000000"> Se muestra el nombre </font> </p>
+    </a>
+   </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+       <h2>Tipos de contaminacion </h2>
+       <p><font color="#000000" >Se muestran los tipos de contaminacion que existen </font> </p>
+    </a>
+   </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+       <h2>  Consecuencias </h2>
+       <p> <font color="#000000">Demostracion de las consecuencias </font> </p>
+    </a>
+   </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+       <h2> Reciclaje </h2>
+       <p> <font color="#000000"> ¿Que es y como se clasifica el reciclaje? </font> </p>
+    </a>
+   </li>
+   <li class ="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+       <h2>  Medidas para combatirla</h2>
+    </a>
+   </li>
+ </ul>
+ </div>
+
+  <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+      <div>
+         <img src="imagenes/planta.png" width="60" height="60">
+      </div>
+      <div>
+          <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+      </div>   
+      </div>
+</div>
+ 
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true"  data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Definicion </h1>
+    </div>
+      <div data-role="content" align="center">
+        <div>
+            <h2>¿que es la contaminacion?</h2>
+          <h5 align="left"> La contaminación es la presencia o acumulación de sustancias en el medio ambiente que afectan negativamente el entorno y las condiciones de vida, así como la salud o la higiene de los seres vivos.<br> 
+          También se denomina una alteración en una sustancia o un producto, como un alimento o una muestra.</h5>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/contaminacin5.jpg" alt="contaminación5" title="contaminación5" id="wows1_0"/></li>
+		<li><img src="data1/images/contaminacion1.jpg" alt="contaminacion" title="contaminacion" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacion3.jpg" alt="contaminacion" title="contaminacion" id="wows1_2"/></li>
+		<li><img src="data1/images/contaminacion4.jpg" alt="contaminacion" title="contaminacion" id="wows1_3"/></li>
+		<li><img src="data1/images/conta2.jpg" alt="contaminación" title="contaminación" id="wows1_4"/></li>
+		<li><img src="data1/images/contaminacin6.jpg" alt="contaminación" title="contaminación" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/contaminacin7.jpg" alt="http://wowslider.net/" title="contaminación" id="wows1_6"/></a></li>
+		<li><img src="data1/images/contaminacin8.jpg" alt="contaminación" title="contaminación" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminación5"><span><img src="data1/tooltips/contaminacin5.jpg" alt="contaminación5"/>1</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion1.jpg" alt="contaminacion"/>2</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion3.jpg" alt="contaminacion"/>3</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion4.jpg" alt="contaminacion"/>4</span></a>
+		<a href="#" title="contaminación"><span><img src="data1/tooltips/conta2.jpg" alt="contaminación"/>5</span></a>
+		<a href="#" title="contaminación"><span><img src="data1/tooltips/contaminacin6.jpg" alt="contaminación"/>6</span></a>
+		<a href="#" title="contaminación"><span><img src="data1/tooltips/contaminacin7.jpg" alt="contaminación"/>7</span></a>
+		<a href="#" title="contaminación"><span><img src="data1/tooltips/contaminacin8.jpg" alt="contaminación"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        </div>  
+     </div>     
+     <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+         <div> 
+               <img src="imagenes/planta.png" width="60" height="60">
+         </div>
+             <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+          
+  </div>   
+</div>
+      
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>Tipos de<br> contaminacion  </h1>
+         </div>
+         <div data-role="content" align="center">
+             <div>
+                 <h2>Contaminación del agua</h2>
+          <h5 align="left">La contaminación del agua es una modificación o alteración del agua que tiene consecuencias negativas en el medio ambiente y en los seres vivos.<br>El ser humano es el principal responsable de la contaminación del agua, especialmente a través del vertido de aguas residuales, que no han sido tratadas.</h5 >
+          <img src="imagenes/comun2.jpg" width="60%" height="60%">
+<h2>Contaminación del aire</h2>
+          <h5 align="left">se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa.</h5 >
+          <img src="imagenes/comunidad.jpg" width="60%" height="60%">
+          <h2>Contaminación del suelo</h2>
+          <h5 align="left">cuando se introduce material extraño y dañino en las capas terrestres. Estos contaminantes producen un desequilibrio físico, químico y biológico en el suelo..</h5 >
+          <img src="imagenes/comun.jpg" width="60%" height="60%"> </div>
+  </div>
+
+          <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+             <div> 
+                 <img src="imagenes/planta.png" width="60" height="60">
+             </div>
+                  <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+               
+  </div>   
+</div>  
+            
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1> Consecuencias  </h1>
+         </div>
+         <div data-role="content" align="center">
+             <div>
+                 <h2>LaContaminación del agua provoca </h2>
+               <h5 align="left">Desaparición de vida marina y destrucción de ecosistemas acuáticos, debido a la extrema toxicidad de los deshechos industriales.
+Generación enfermedades en la población humana, como hepatitis, cólera y disentería.
+Efectos nocivos en el desarrollo de las especies en base a la debilitación de su sistema inmunológico, su mal prospecto de supervivencia y las dificultades en reproducción, además de enfermedades mortales como cáncer.</h5>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/limpia.jpg',1)"><img src="imagenes/contaminación7.jpg" width="60%" height="60%" id="Image28"></a>
+<h2>LaContaminación del aire </h2> 
+<h5 align="left">Deterioro en la salud del hombre, problemas cardiovasculares, conjuntivitis, enfermedades bronquiales, cáncer pulmonar, cáncer en la piel, problemas de visión, enfermedades en la sangre, problemas en el desarrollo mental de los nonatos, entre otros.
+Grandes repercusiones en el proceso evolutivo de las plantas, impidiendo en muchos casos la fotosíntesis, con graves consecuencias para la purificación del aire que respiran los demás seres vivos del planeta.
+Disminución de la producción de plantas comestibles debido al mismo proceso comentado en el punto anterior, con los conocidos efectos en la alimentación de las especies que la consumen, entre ellos el hombre.</h5>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/contaminacion1.jpg',1)"><img src="imagenes/aire.jpg" width="60%" height="60%" id="Image29"></a>
+<h2>La contaminación del suelo </h2> 
+<h5 align="left"> las plantas se degradan y se reduce considerablemente la variedad de especies, las que aun sobrevivan presentarán aspectos débiles y su proceso natural se dará con dificultad.<br>Un suelo contaminado dificulta el desarrollo de la vida de la fauna, sin existir alimento ni agua limpia, las especies migran o sufren daños irremediables en su cadena de procreación.</h5>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/areaverde.jpg',1)"><img src="imagenes/contaminación8.jpg" width="60%" height="60%" id="Image29"></a></div>
+  </div>
+
+          <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+             <div> 
+                   <img src="imagenes/planta.png" width="60" height="60">
+             </div>
+                  <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+               
+  </div>   
+</div>
+            
+            
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1> Reciclaje </h1>
+         </div>
+         <div data-role="content" align="center">
+             <div>
+                 <h5 align="left">El reciclaje consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizados. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos.El reciclaje surje no sólo para eliminar residuos, sino para hacer frente al agotamiento de los recursos naturales del planeta.</h5>
+ <h2 align="center">Clasificación</h2>
+                 <ul >
+                 <li >Reciclaje orgánico</li>
+                 <h5 >consiste en la separación de los restos orgánicos que se encuentran en la basura (mayoritariamente desechos de comida) que, luego de su separación, pueden ser utilizados para la alimentación de ganado o tratados para que se produzca compost y se utilice como abono natural para las plantas.</h5>
+                 <li>Reciclaje inorgánico</li>
+                     <h5 > Estos son separados del resto de la basura por tipo de elemento (metales, vidrios, papel, plásticos, y demás), para su ulterior procesado y reintegración a la “vida útil” como productos reciclados.</h5>
+                                      <li>Reciclaje de plástico</li>
+                     <h5 > Se trata de la recolección y selección de los diversos tipos de plásticos que se encuentran en la basura, para ser reutilizados. En el caso de algunos plásticos como el pet (el de las botellas de gaseosas y aguas)</h5>
+                                                 <li>Reciclaje de metales</li>
+                     <h5 > Se trata de los procesos que se llevan a cabo para el uso de los metales que contienen los desechos (basuras y desechos del tipo industrial y casero)</h5>
+                                                                      <li>Reciclaje de papel</li>
+                     <h5 > Se trata de la recolección de desechos de papel y cartón que son molidos y triturados para hacer una pasta de papel que se reutilizará para la fabricación de diversos tipos de papel y/o cartón.</h5>
+
+                 </ul>  </div>
+  </div>
+
+          <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+             <div> 
+                   <img src="imagenes/planta.png" width="60" height="60">
+             </div>
+                  <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+               
+  </div>   
+</div> 
+            
+            
+       <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Medidas para <br>combatirla  </h1>
+</div>
+<div data-role="content" align="center">
+             <div>
+                  <ul>
+                <li> <h2>No tirar basura en areas verdes</h2></li>
+                 <li><h2>Apagar las luces cuando se esté ausente. </h2></li>
+                 <li><h2> Evitar el uso de aerosoles</h2></li>
+                 <li><h2>Utilizar menos productos de plástico</h2></li>
+                 <li><h2>Procurar utilizar pilas recargables o enchufar los aparatos a la red eléctrica</h2></li>
+                 </ul>
+          <a href="https://ecoosfera.com/2016/03/15-maneras-sencillas-de-reducir-la-contaminacion-y-prevenir-la-contingencia-ambiental/" target="_self">como ayudar a no cotaminar </a>
+          </div>
+
+          <div data-role="footer" align="center"  data-theme="a" data-position="fixed">
+             <div> 
+                   <img src="imagenes/planta.png" width="60" height="60">
+             </div>
+                 <h4> Aplicación 4  </h4>
+         <h4> Andres Gracia Ramirez </h4>
+               
+  </div>   
+</div>               
+                          
+</body>
+</html>
